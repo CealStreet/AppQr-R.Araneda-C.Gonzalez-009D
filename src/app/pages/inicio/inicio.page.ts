@@ -4,6 +4,7 @@ import { MenuController } from '@ionic/angular';
 
 
 
+
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.page.html',
