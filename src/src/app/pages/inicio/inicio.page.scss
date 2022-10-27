@@ -1,0 +1,12 @@
+#centrar {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height: 100%;
+    color: aqua;
+}
+
+.fondo {
+    --background: rgb(22, 116, 133);
+    --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("/assets/tiempo.jpg") no-repeat center center;
+}

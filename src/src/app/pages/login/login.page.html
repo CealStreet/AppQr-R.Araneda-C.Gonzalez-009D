@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-toolbar color="secondary">
+        <ion-title>Login</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <div class="ima">
+            <img src="assets/tiempo.jpg">
+        </div>
+
+        <ion-card-header>
+            <ion-card-title>Login</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            <form [formGroup]="formularioLogin">
+
+                <ion-item>
+                    <ion-label position="floating">Correo: </ion-label>
+                    <ion-input type="email" formControlName="correo"></ion-input>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label position="floating">Password: </ion-label>
+                    <ion-input type="password" formControlName="password"></ion-input>
+                </ion-item>
+            </form>
+            <br>
+            <div class="Logins">
+                <ion-button type="submit" color="primary" expand="block" routerLink="/inicio">Login</ion-button>
+            </div>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar color="secondary">
+        <ion-buttons slot="end">
+            <ion-button color="primary" expand="block" [routerLink]="['/registro']">Registrarse</ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,22 @@
+ion-content {
+    --background: linear-gradient(180deg, #3eb9b9 0, #38af91 12.5%, #1789a8 25%, #b62b93 37.5%, #11cda4 50%, #30ced1 62.5%, #254d99 75%, #20a0c3 87.5%, #22c6bb 100%);
+}
+
+ion-item {
+    --background: transparent;
+    color: rgb(0, 0, 0);
+}
+
+ion-label {
+    --background: transparent;
+}
+
+ion-toolbar {
+    --background: transparent;
+    color: white;
+}
+
+ion-button {
+    margin-left: 25px;
+    margin-right: 25px;
+}
