@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-button (click)="mostrarMenu()" color="primary">
+                <ion-icon slot="start" name="first"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title>Escaneo QR</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-icon class="QR" name="qr-outline"></ion-icon>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-subtitle>Nota:</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+            Debes darle permiso a la camara.
+        </ion-card-content>
+    </ion-card>
+    <ion-button class="boton" (click)="Escaneo()" expand="full" fill="clear" shape="round" routerLink="/inicio">
+        ESCANEAR
+    </ion-button>
+</ion-content>
